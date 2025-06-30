@@ -62,10 +62,15 @@ In the data, we can see that the LT highschool and High School Q3 is lower than 
 model1 <- aov(WORDSUM~DEGREE,data=mydata)
 summary.aov(model1)
 ```
+
+  The p value here is very low. It is a small number of 0.000236.
+
+
 ```{r}
 par(mar = c(3, 17, 2, 2))
 plot(TukeyHSD(model1, conf.level =0.98), las=2)
 ```
+
 
 # Discussion and Conclusion
 
