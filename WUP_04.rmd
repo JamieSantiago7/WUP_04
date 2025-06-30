@@ -41,7 +41,7 @@ basicCN <- ggplot(mydata,aes(x=DEGREE,y=WORDSUM))
   
 basicCN + geom_boxplot()
 ```
-
+In the plot above the LT high school and high school are both under Junior college and bachelor schools.
 
 ### Numerical Descriptive Results
 
